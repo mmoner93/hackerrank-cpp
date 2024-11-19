@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build main.cpp",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "main.cpp",
+                "-o",
+                "main.o"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "detail": "Generated task to build main.cpp"
+        }
+    ]
+}
